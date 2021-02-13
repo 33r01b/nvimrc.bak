@@ -1,4 +1,4 @@
-"--easymotion/vim-easymotion
+"easymotion/vim-easymotion
 
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 map  / <Plug>(easymotion-sn)

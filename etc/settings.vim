@@ -7,6 +7,9 @@ autocmd FileType make setlocal noexpandtab
 "set cursorline!
 "set relativenumber
 "set spell
+"set wildmenu
+"set wildmode=list:longest,list:full
+ 
 set ai
 set autoindent
 set backspace=2
@@ -58,7 +61,3 @@ set timeoutlen=100
 set ttimeoutlen=0
 set ttyfast
 set undodir=~/.config/nvim/.undo/
-set wildmenu
-set wildmode=list:longest,list:full
-
-
