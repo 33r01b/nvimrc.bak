@@ -9,9 +9,14 @@ Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go'
 Plug 'tmsvg/pear-tree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'mhinz/vim-grepper'
+Plug 'echuraev/translate-shell.vim'
+Plug 'kamykn/spelunker.vim'
 call plug#end()
 
 let $NVIM_COC_LOG_LEVEL = 'debug'
+let g:node_client_debug = 1
+let $NODE_CLIENT_LOG_FILE = '/tmp/coc/log'
 
 source ~/.config/nvim/etc/settings.vim
 source ~/.config/nvim/etc/map.vim
@@ -28,3 +33,5 @@ source ~/.config/nvim/etc/plugins/vim-gitgutter.vim
 source ~/.config/nvim/etc/plugins/vim-go.vim
 source ~/.config/nvim/etc/plugins/vista.vim
 source ~/.config/nvim/etc/plugins/coc.vim
+source ~/.config/nvim/etc/plugins/vim-grepper.vim
+

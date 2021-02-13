@@ -12,5 +12,12 @@
             "filetypes": ["sh"],
             "ignoredRootPaths": ["~"]
         }
+    },
+    "snippets": {
+        "ultisnips": {
+            "directories": [
+                "plugged/vim-go/gosnippets/UltiSnips"
+            ]
+        }
     }
 }
