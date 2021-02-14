@@ -1,4 +1,8 @@
 "neoclide/coc.nvim
+
+let g:node_client_debug = 0
+let $NVIM_COC_LOG_LEVEL = 'debug'
+let $NODE_CLIENT_LOG_FILE = '/tmp/coc/log'
  
 " if hidden is not set, TextEdit might fail.
 set hidden
