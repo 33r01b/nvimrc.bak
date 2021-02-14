@@ -11,6 +11,9 @@
 
 ### Configurations
 
+#### initialization
+    make init
+
 #### coc.nvim
 
     :CocInstall coc-tabnine
