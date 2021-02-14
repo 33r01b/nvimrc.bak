@@ -9,6 +9,7 @@ autocmd FileType make setlocal noexpandtab
 "set wildmenu
 "set wildmode=list:longest,list:full
  
+set nocompatible
 set ai
 set autoindent
 set backspace=2

@@ -16,6 +16,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'tpope/vim-commentary'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 source ~/.config/nvim/etc/settings.vim
