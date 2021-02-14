@@ -4,7 +4,6 @@ filetype plugin on
 filetype plugin indent on
 autocmd FileType make setlocal noexpandtab
 
-"set cursorline!
 "set relativenumber
 "set spell
 "set wildmenu
@@ -18,6 +17,7 @@ set cin
 set cindent
 set clipboard+=unnamedplus
 set colorcolumn=120
+set cursorline!
 set diffopt+=iwhite " Ignore whitespace whilst diffing
 set directory=~/.config/nvim/.swp/
 set encoding=utf8
