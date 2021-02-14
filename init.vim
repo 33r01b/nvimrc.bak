@@ -14,10 +14,13 @@ Plug 'echuraev/translate-shell.vim'
 Plug 'kamykn/spelunker.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'itchyny/lightline.vim'
+Plug 'itchyny/vim-gitbranch'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 source ~/.config/nvim/etc/settings.vim
 source ~/.config/nvim/etc/map.vim
+source ~/.config/nvim/etc/highlight.vim
 source ~/.config/nvim/etc/scripts/sessions.vim
 
 " load plugins configurations
