@@ -17,6 +17,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'tpope/vim-commentary'
 Plug 'sheerun/vim-polyglot'
+Plug 'lifepillar/vim-solarized8'
 call plug#end()
 
 source ~/.config/nvim/etc/settings.vim
@@ -38,4 +39,5 @@ source ~/.config/nvim/etc/plugins/coc.vim
 source ~/.config/nvim/etc/plugins/vim-grepper.vim
 source ~/.config/nvim/etc/plugins/indentLine.vim
 source ~/.config/nvim/etc/plugins/lightline.vim
+source ~/.config/nvim/etc/plugins/vim-solarized8.vim
 
