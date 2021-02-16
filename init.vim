@@ -18,6 +18,7 @@ Plug 'itchyny/vim-gitbranch'
 Plug 'tpope/vim-commentary'
 Plug 'sheerun/vim-polyglot'
 Plug 'lifepillar/vim-solarized8'
+Plug 'tmux-plugins/vim-tmux-focus-events'
 call plug#end()
 
 source ~/.config/nvim/etc/settings.vim
