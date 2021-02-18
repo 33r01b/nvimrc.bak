@@ -12,18 +12,20 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mhinz/vim-grepper'
 Plug 'echuraev/translate-shell.vim'
 Plug 'kamykn/spelunker.vim'
+Plug 'kamykn/popup-menu.nvim'
 Plug 'Yggdroot/indentLine'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'tpope/vim-commentary'
 Plug 'sheerun/vim-polyglot'
-Plug 'lifepillar/vim-solarized8'
 Plug 'tmux-plugins/vim-tmux-focus-events'
+Plug 'guns/xterm-color-table.vim'
+"Plug 'lifepillar/vim-solarized8'
+"Plug 'ap/vim-css-color'
 call plug#end()
 
 source ~/.config/nvim/etc/settings.vim
 source ~/.config/nvim/etc/map.vim
-source ~/.config/nvim/etc/highlight.vim
 source ~/.config/nvim/etc/scripts/sessions.vim
 
 " load plugins configurations
@@ -40,5 +42,6 @@ source ~/.config/nvim/etc/plugins/coc.vim
 source ~/.config/nvim/etc/plugins/vim-grepper.vim
 source ~/.config/nvim/etc/plugins/indentLine.vim
 source ~/.config/nvim/etc/plugins/lightline.vim
-source ~/.config/nvim/etc/plugins/vim-solarized8.vim
+"source ~/.config/nvim/etc/plugins/vim-solarized8.vim
 
+source ~/.config/nvim/etc/highlight.vim

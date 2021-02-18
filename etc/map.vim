@@ -29,3 +29,7 @@ noremap <C-k> <C-w>k
 " show new lines
 nmap <leader>l :set list!<CR>
 set listchars=tab:▸\ ,eol:¬
+
+" disable ZZ exit
+nnoremap Z <Nop>
+nnoremap ZZ <Nop>
