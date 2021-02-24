@@ -23,3 +23,17 @@ let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
 " Make Nerdtree show .files by default
 let NERDTreeShowHidden=1
+
+let g:NERDTreeGitStatusConcealBrackets = 0
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+\ 'Modified'  :'~',
+\ 'Staged'    :'+',
+\ 'Untracked' :'!',
+\ 'Renamed'   :'➜',
+\ 'Unmerged'  :'=',
+\ 'Deleted'   :'x',
+\ 'Dirty'     :'*',
+\ 'Ignored'   :'i',
+\ 'Clean'     :'✔︎',
+\ 'Unknown'   :'?',
+\ }

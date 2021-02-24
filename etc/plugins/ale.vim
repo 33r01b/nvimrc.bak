@@ -3,7 +3,7 @@
 "require php-codesniffer, phpstan
 
 let g:ale_sign_column_always = 1
-let g:ale_sign_error = '⚑'
+let g:ale_sign_error = '⤫'
 let g:ale_sign_warning = '⚐' 
 
 let g:ale_linters = {
@@ -11,7 +11,6 @@ let g:ale_linters = {
 \}
 
 let b:ale_warn_about_trailing_whitespace = 0
-let g:ale_python_pylint_options = '--disable=missing-docstring'
 
 nmap <F7> :ALEToggle<CR>
 

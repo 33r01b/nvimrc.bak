@@ -22,13 +22,18 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'guns/xterm-color-table.vim'
 "Plug 'ap/vim-css-color'
 Plug 'mhartington/oceanic-next'
+Plug 'ryanoasis/vim-devicons'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'sebdah/vim-delve'
 call plug#end()
 
+" settings
 source ~/.config/nvim/etc/settings.vim
-source ~/.config/nvim/etc/map.vim
+
+" scripts
 source ~/.config/nvim/etc/scripts/sessions.vim
 
-" load plugins configurations
+" plugins configurations
 source ~/.config/nvim/etc/plugins/ale.vim
 source ~/.config/nvim/etc/plugins/bufexplorer.vim
 source ~/.config/nvim/etc/plugins/easymotion.vim
@@ -43,4 +48,8 @@ source ~/.config/nvim/etc/plugins/vim-grepper.vim
 source ~/.config/nvim/etc/plugins/indentLine.vim
 source ~/.config/nvim/etc/plugins/lightline.vim
 
+" mappings
+source ~/.config/nvim/etc/map.vim
+
+" highlight
 source ~/.config/nvim/etc/highlight.vim

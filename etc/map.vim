@@ -2,7 +2,6 @@ map <Space> <Leader>
 vnoremap y "+y
 
 inoremap <C-c> <Esc>
-"tnoremap <Esc> <C-\><C-n><CR>
 
 " search
 nnoremap <silent> <Leader>c :nohl<Bar>:echo<CR>

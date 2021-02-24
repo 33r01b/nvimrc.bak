@@ -62,3 +62,4 @@ set timeoutlen=100
 set ttimeoutlen=0
 set ttyfast
 set undodir=~/.config/nvim/.undo/
+set updatetime=100
