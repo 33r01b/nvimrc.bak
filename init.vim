@@ -6,7 +6,7 @@ Plug 'liuchengxu/vista.vim'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'tmsvg/pear-tree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mhinz/vim-grepper'
@@ -20,8 +20,8 @@ Plug 'tpope/vim-commentary'
 Plug 'sheerun/vim-polyglot'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'guns/xterm-color-table.vim'
-"Plug 'lifepillar/vim-solarized8'
 "Plug 'ap/vim-css-color'
+Plug 'mhartington/oceanic-next'
 call plug#end()
 
 source ~/.config/nvim/etc/settings.vim
@@ -42,6 +42,5 @@ source ~/.config/nvim/etc/plugins/coc.vim
 source ~/.config/nvim/etc/plugins/vim-grepper.vim
 source ~/.config/nvim/etc/plugins/indentLine.vim
 source ~/.config/nvim/etc/plugins/lightline.vim
-"source ~/.config/nvim/etc/plugins/vim-solarized8.vim
 
 source ~/.config/nvim/etc/highlight.vim
