@@ -58,7 +58,6 @@ set ssop-=folds " do not store folds
 set ssop-=options " do not store global and local values in a session
 set switchbuf+=usetab,newtab
 set synmaxcol=1500
-set t_Co=256
 set tabstop=4
 set timeoutlen=100 
 set ttimeoutlen=0

@@ -21,10 +21,11 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'guns/xterm-color-table.vim'
 "Plug 'ap/vim-css-color'
-Plug 'mhartington/oceanic-next'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'sebdah/vim-delve'
+Plug 'tomasiser/vim-code-dark'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 call plug#end()
 
 " settings
