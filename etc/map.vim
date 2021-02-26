@@ -32,3 +32,5 @@ set listchars=tab:▸\ ,eol:¬
 " disable ZZ exit
 nnoremap Z <Nop>
 nnoremap ZZ <Nop>
+
+nnoremap <silent><Leader>r :vsplit term://go run %<CR>

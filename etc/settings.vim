@@ -52,6 +52,8 @@ set smartindent
 set smarttab
 set softtabstop=4
 set spelllang=en,ru
+set splitbelow
+set splitright
 set ssop-=folds " do not store folds
 set ssop-=options " do not store global and local values in a session
 set switchbuf+=usetab,newtab
