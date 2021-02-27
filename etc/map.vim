@@ -49,5 +49,5 @@ xnoremap <silent> <F2> "zy:exe "Rg ".@z.""<CR>
 nnoremap <silent> <F1> :Rg<CR>
 
 " Explorer
-map <C-n> :CocCommand explorer<CR>
+map <C-n> :CocCommand explorer --toggle --sources=file+<CR>
 

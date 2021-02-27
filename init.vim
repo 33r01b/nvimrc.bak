@@ -22,6 +22,8 @@ Plug 'guns/xterm-color-table.vim'
 Plug 'sebdah/vim-delve'
 Plug 'tomasiser/vim-code-dark'
 Plug 'liuchengxu/vim-which-key'
+Plug 'brooth/far.vim'
+Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 " settings
@@ -42,6 +44,8 @@ source ~/.config/nvim/etc/plugins/coc.vim
 source ~/.config/nvim/etc/plugins/indentLine.vim
 source ~/.config/nvim/etc/plugins/lightline.vim
 source ~/.config/nvim/etc/plugins/vim-which-key.vim
+source ~/.config/nvim/etc/plugins/far.vim
+source ~/.config/nvim/etc/plugins/floaterm.vim
 
 " mappings
 source ~/.config/nvim/etc/map.vim
