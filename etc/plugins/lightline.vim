@@ -1,7 +1,7 @@
 "itchyny/lightline.vim
 
 let g:lightline = {
-      \ 'colorscheme': 'solarized',
+      \ 'colorscheme': 'one',
       \ 'active': {
       \   'left': [ 
       \     [ 'mode', 'paste' ],

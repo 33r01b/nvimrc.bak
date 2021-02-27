@@ -1,6 +1,7 @@
 call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'easymotion/vim-easymotion'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'liuchengxu/vista.vim'
 Plug 'jlanzarotta/bufexplorer'
@@ -9,7 +10,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'tmsvg/pear-tree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'mhinz/vim-grepper'
 Plug 'echuraev/translate-shell.vim'
 Plug 'kamykn/spelunker.vim'
 Plug 'kamykn/popup-menu.nvim'
@@ -45,7 +45,6 @@ source ~/.config/nvim/etc/plugins/vim-gitgutter.vim
 source ~/.config/nvim/etc/plugins/vim-go.vim
 source ~/.config/nvim/etc/plugins/vista.vim
 source ~/.config/nvim/etc/plugins/coc.vim
-source ~/.config/nvim/etc/plugins/vim-grepper.vim
 source ~/.config/nvim/etc/plugins/indentLine.vim
 source ~/.config/nvim/etc/plugins/lightline.vim
 

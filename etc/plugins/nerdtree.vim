@@ -37,3 +37,11 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
 \ 'Clean'     :'✔︎',
 \ 'Unknown'   :'?',
 \ }
+
+let NERDTreeHighlightCursorline = 0
+let g:NERDTreeSyntaxDisableDefaultExtensions = 1
+let g:NERDTreeDisableExactMatchHighlight = 1
+let g:NERDTreeDisablePatternMatchHighlight = 1
+let g:NERDTreeLimitedSyntax = 1
+let g:NERDTreeSyntaxEnabledExtensions = ['go', 'php', 'vim', 'sql', 'json', 'js', 'css', 'yml'] " example
+
