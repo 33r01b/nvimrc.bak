@@ -19,3 +19,4 @@
     :CocInstall coc-tabnine
     :CocInstall coc-go
     :CocInstall coc-snippets
+    :CocInstall coc-explorer

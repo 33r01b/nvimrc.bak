@@ -1,10 +1,8 @@
 call plug#begin()
-Plug 'preservim/nerdtree'
 Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'liuchengxu/vista.vim'
-Plug 'jlanzarotta/bufexplorer'
 Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
@@ -22,10 +20,9 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'guns/xterm-color-table.vim'
 "Plug 'ap/vim-css-color'
 Plug 'ryanoasis/vim-devicons'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'sebdah/vim-delve'
 Plug 'tomasiser/vim-code-dark'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'liuchengxu/vim-which-key'
 call plug#end()
 
 " settings
@@ -36,10 +33,8 @@ source ~/.config/nvim/etc/scripts/sessions.vim
 
 " plugins configurations
 source ~/.config/nvim/etc/plugins/ale.vim
-source ~/.config/nvim/etc/plugins/bufexplorer.vim
 source ~/.config/nvim/etc/plugins/easymotion.vim
 source ~/.config/nvim/etc/plugins/fzf.vim
-source ~/.config/nvim/etc/plugins/nerdtree.vim
 source ~/.config/nvim/etc/plugins/pear-tree.vim
 source ~/.config/nvim/etc/plugins/vim-gitgutter.vim
 source ~/.config/nvim/etc/plugins/vim-go.vim
@@ -47,6 +42,7 @@ source ~/.config/nvim/etc/plugins/vista.vim
 source ~/.config/nvim/etc/plugins/coc.vim
 source ~/.config/nvim/etc/plugins/indentLine.vim
 source ~/.config/nvim/etc/plugins/lightline.vim
+source ~/.config/nvim/etc/plugins/vim-which-key.vim
 
 " mappings
 source ~/.config/nvim/etc/map.vim

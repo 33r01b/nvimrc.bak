@@ -33,4 +33,21 @@ set listchars=tab:▸\ ,eol:¬
 nnoremap Z <Nop>
 nnoremap ZZ <Nop>
 
+" Run go
 nnoremap <silent><Leader>r :vsplit term://go run %<CR>
+
+" Open buffrs
+nmap <silent> <leader>w :Buffers<CR>
+
+" Search current position text
+nnoremap <silent> <F2> "zyiw:exe "Rg ".@z.""<CR>
+
+" Search selected text
+xnoremap <silent> <F2> "zy:exe "Rg ".@z.""<CR>
+
+" Search text
+nnoremap <silent> <F1> :Rg<CR>
+
+" Explorer
+map <C-n> :CocCommand explorer<CR>
+
