@@ -7,7 +7,7 @@ Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'tmsvg/pear-tree'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': ':CocInstall coc-tabnine coc-go coc-snippets coc-explorer'}
 Plug 'echuraev/translate-shell.vim'
 Plug 'kamykn/spelunker.vim'
 Plug 'kamykn/popup-menu.nvim'
@@ -19,7 +19,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'guns/xterm-color-table.vim'
 "Plug 'ap/vim-css-color'
-Plug 'ryanoasis/vim-devicons'
 Plug 'sebdah/vim-delve'
 Plug 'tomasiser/vim-code-dark'
 Plug 'liuchengxu/vim-which-key'

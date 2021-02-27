@@ -19,5 +19,6 @@
                 "plugged/vim-go/gosnippets/UltiSnips"
             ]
         }
-    }
+    },
+    "explorer.icon.enableNerdfont": true
 }
