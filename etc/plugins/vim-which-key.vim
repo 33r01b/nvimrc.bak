@@ -55,6 +55,22 @@ let g:which_key_map.d = {
       \ 'c' : [':DlvClearAll'                      , 'clear breakpoints and tracepoints'],
       \ 'r' : [':DlvDebug'                         , 'run debug'],
       \ }
+ 
+" z is for splell
+let g:which_key_map.z = {
+      \ 'name' : '+spell' ,
+      \ 'T' : ['ZT'                        , 'enable/disable'],
+      \ 'L' : ['ZL'                        , 'suggestions - buffer'],
+      \ 'l' : ['Zl'                        , 'suggestions - cursor'],
+      \ 'C' : ['ZC'                        , 'inserting - buffer'],
+      \ 'c' : ['Zc'                        , 'inserting - cursor'],
+      \ 'F' : ['ZF'                        , 'first - buffer'],
+      \ 'f' : ['Zf'                        , 'first - cursor'],
+      \ 'g' : ['Zg'                        , 'add - good'],
+      \ 'w' : ['Zw'                        , 'add - bad'],
+      \ 'ug' : ['Zug'                        , 'remove - good'],
+      \ 'uw' : ['Zuw'                        , 'remove - good'],
+      \ }
 
 " s is for search
 let g:which_key_map.s = {
