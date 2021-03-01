@@ -26,7 +26,7 @@ set expandtab
 set fileencodings=utf8,cp1251
 set fillchars=fold:-,diff:·
 set foldlevel=1
-set foldlevelstart=1
+set foldlevelstart=3
 set foldmethod=indent
 set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
 set hidden

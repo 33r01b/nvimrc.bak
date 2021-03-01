@@ -54,6 +54,7 @@ let g:which_key_map.d = {
       \ 't' : [':DlvToggleTracepoint'              , 'tracepoint'],
       \ 'c' : [':DlvClearAll'                      , 'clear breakpoints and tracepoints'],
       \ 'r' : [':DlvDebug'                         , 'run debug'],
+      \ 'T' : [':DlvTest'                          , 'run test'],
       \ }
  
 " z is for splell
