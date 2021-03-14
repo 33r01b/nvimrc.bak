@@ -48,9 +48,5 @@ xnoremap <silent> <F2> "zy:exe "Rg ".@z.""<CR>
 " Search text
 nnoremap <silent> <F1> :Rg<CR>
 
-" Explorer
-map <silent> <C-n> :CocCommand explorer --toggle --sources=file+<CR>
-
-
 " Go rename
 nnoremap <silent> <F6> :GoRename<CR>
