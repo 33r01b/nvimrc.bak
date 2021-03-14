@@ -9,7 +9,14 @@ set t_Co=256
 set t_ut=
 set termguicolors     " enable true colors support
 
+function! MyHighlights() abort
+    highlight SpelunkerSpellBad cterm=undercurl ctermfg=NONE gui=undercurl guifg=NONE
+    highlight NormalFloat guibg=NONE ctermbg=NONE
+endfunction
+
+augroup MyColors
+    autocmd!
+    autocmd ColorScheme * call MyHighlights()
+augroup END
+
 colorscheme codedark
-
-hi SpelunkerSpellBad cterm=undercurl ctermfg=NONE gui=undercurl guifg=NONE
-
