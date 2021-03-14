@@ -10,7 +10,6 @@ Plug 'echuraev/translate-shell.vim'
 Plug 'kamykn/spelunker.vim'
 Plug 'kamykn/popup-menu.nvim'
 Plug 'Yggdroot/indentLine'
-Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'tpope/vim-commentary'
 "Plug 'sheerun/vim-polyglot'
@@ -28,8 +27,8 @@ Plug 'nvim-lua/diagnostic-nvim'
 Plug 'aca/completion-tabnine', { 'do': './install.sh' }
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua'
-"Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
-"Plug 'ryanoasis/vim-devicons' " vimscript
+Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
+Plug 'ryanoasis/vim-devicons' " vimscript
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 call plug#end()
 
@@ -51,7 +50,6 @@ source ~/.config/nvim/etc/plugins/pear-tree.vim
 source ~/.config/nvim/etc/plugins/vim-gitgutter.vim
 source ~/.config/nvim/etc/plugins/vim-go.vim
 source ~/.config/nvim/etc/plugins/indentLine.vim
-source ~/.config/nvim/etc/plugins/lightline.vim
 source ~/.config/nvim/etc/plugins/vim-which-key.vim
 source ~/.config/nvim/etc/plugins/far.vim
 source ~/.config/nvim/etc/plugins/floaterm.vim
